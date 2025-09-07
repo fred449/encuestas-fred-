@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*rootear la pagina*/
+:root {
+    --colorMorado: #571AE5;
+    --colorMorado2: #9B71FF;
+    --colorMorado3: #DFD2FF;
+    --colorBlanco: #ffffff;
+    --colorNegro: #000000;
+
+    --fontinter: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--fontinter);
+    font-size: 16px;
+}
+
+/*estilo de toda la pagina*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*Estilo del botón*/
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 500;
+    height: 100%;
+}
+
+.btn1 {
+    padding: 5px 25px;
+    background-color: var(--colorBlanco);
+    color: var(--colorMorado);
+}
+
+.btn1:hover {
+    background-color: var(--colorMorado3);
+}
+
+.btn2 {
+    padding: 10px;
+    background-color: var(--colorBlanco);
+    color: var(--colorMorado);
+}
+
+.btn2:hover {
+    background-color: var(--colorMorado3);
+}
+
+
+/* Estilo del contenedor */
+
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 80px 16px;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}

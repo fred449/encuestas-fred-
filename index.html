@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marca Maestra</title>
+  <link rel="shortcut icon" href="image/ico.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css"> <!-- Enlace al CSS -->
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header3">
+    <div class="header flex">
+      <div class="logo">
+        <img src="image/logo=blanco.svg" alt="Logo MarcaMaestra">
+      </div>
+
+      <div class="menu_boton flex">
+        <nav class="flex nav">
+          <ul class="flex ul">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <button class="btn1" type="button">Ver Cursos</button>
+        </nav>
+      </div>
+
+      <form class="buscador flex" method="GET" action="">
+        <input type="search" name="q" id="buscador" placeholder="Buscar cursos">
+        <button type="submit">
+          <img src="image/buscador.png" alt="Buscar" width="24" height="24">
+        </button>
+      </form>
+
+      <div class="carrito flex">
+        <button type="button" class="btn2">
+          <img src="image/10945122.png" alt="Carrito" width="24" height="24">
+        </button>
+        <button type="button" class="btn2">
+          <img src="image/5008618.png" alt="Usuario" width="24" height="24">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Aquí va el contenido principal de la página -->
+  </main>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto-container">
+    <div class="contacto-info">
+      <h2>¿Listo para empezar?</h2>
+      <p>
+        Si tienes preguntas sobre nuestros cursos, necesitas ayuda para elegir el curso adecuado, o simplemente quieres saber más sobre MarcaMaestra, no dudes en contactarnos. Estamos aquí para ayudarte a alcanzar tus metas de marca.
+      </p>
+      <ul>
+        <li>
+          <img src="image/correo.png" alt="Correo" class="icono">
+          <span>info@marcamaestras.com</span>
+        </li>
+        <li>
+          <img src="image/whatsapp.png" alt="WhatsApp" class="icono">
+          <span>+51 987 654 321</span>
+        </li>
+        <li>
+          <img src="image/reloj.png" alt="Horario" class="icono">
+          <span>Lunes a Viernes: 9 AM - 6 PM (PET)</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contacto-form">
+      <form action="/enviar-formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico" required>
+
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Ingresa el asunto" required>
+
+        <label for="whatsapp">WhatsApp</label>
+        <input type="text" id="whatsapp" name="whatsapp" placeholder="Ingresa tu número de WhatsApp">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="5"></textarea>
+
+        <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section id="mapa" class="mapa-container">
+    <h2>Encuéntranos aquí</h2>
+    <div class="mapa">
+      <iframe 
+        src="https://www.bing.com/maps/embed?h=350&w=600&cp=-11.070371~-77.609289&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" 
+        width="100%" height="350" 
+        style="border:0;" 
+        allowfullscreen="" loading="lazy">
+      </iframe>
+      <br/>
+      <a target="_blank" href="https://www.bing.com/maps?cp=-11.070371~-77.609289&lvl=16&style=r&sp=point.-11.070371_-77.609289_Huaura%20Balcón%20Perú">Ver mapa más grande</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MarcaMaestra - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>

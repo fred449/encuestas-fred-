@@ -1,0 +1,77 @@
+header {
+    background-color: var(--colorMorado);
+}
+
+.header {
+    padding: 20px 16px;
+    height: 80px;
+    align-items: center;
+
+}
+
+.menu_boton {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: var(--colorBlanco);
+    font-size: 1.25rem;
+}
+
+
+/* Header 2 */
+
+#header2 {
+    background-color: green;
+}
+
+.carrito {
+    gap: 25px;
+    height: 100%;
+}
+
+.carrito button img {
+    height: 100%;
+    width: auto;
+}
+
+
+/* Header 3 */
+
+#header3 {
+    background-color: rgb(222, 166, 35);
+}
+
+.buscador {
+    gap: 25px;
+    height: 100%;
+    padding: 5px 20px;
+    background-color: var(--colorBlanco);
+    border-radius: 12px;
+}
+
+.buscador button img {
+    height: 100%;
+    width: auto;
+}
+
+input {
+    outline: none;
+    border: none;
+}
